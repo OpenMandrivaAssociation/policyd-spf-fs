@@ -10,7 +10,6 @@ Source1:	http://www.freestone.net/ftp/policyd-spf-fs/%{name}_%{version}.tar.gz.s
 Patch0:		policyd-spf-fs-no_nameser.h.diff
 Patch1:		policyd-spf-fs-optflags.diff
 BuildRequires:	libspf-devel >= 1.2.5
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 This is a policy daemon for checking SPF records in postfix. It is based on
