@@ -1,7 +1,7 @@
 Summary:	Policy daemon for checking SPF records in postfix
 Name:		policyd-spf-fs
 Version:	23
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	LGPL
 Group:		System/Servers
 URL:		http://www.freestone.net/ftp/policyd-spf-fs/
