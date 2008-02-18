@@ -1,4 +1,4 @@
-Summary:	This is a policy daemon for checking SPF records in postfix
+Summary:	Policy daemon for checking SPF records in postfix
 Name:		policyd-spf-fs
 Version:	23
 Release:	%mkrel 1
