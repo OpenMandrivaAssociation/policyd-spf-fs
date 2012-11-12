@@ -1,0 +1,10 @@
+--- policyd-spf-fs.c	2007-09-11 08:57:55.000000000 +0200
++++ policyd-spf-fs.c.oden	2007-09-12 11:14:03.000000000 +0200
+@@ -56,7 +56,6 @@
+ #include <string.h>	   /* strstr / strdup */
+ #include <sys/socket.h>   /* inet_ functions / structs */
+ #include <netinet/in.h>   /* inet_ functions / structs */
+-#include <arpa/nameser.h> /* DNS HEADER struct */
+ #include <arpa/inet.h>	/* in_addr struct */
+ #include <getopt.h>
+ #include <syslog.h>

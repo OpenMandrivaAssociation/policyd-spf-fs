@@ -1,0 +1,16 @@
+--- Makefile	2007-09-11 08:57:55.000000000 +0200
++++ Makefile.oden	2007-09-12 11:17:00.000000000 +0200
+@@ -1,11 +1,11 @@
+ # $Id: Makefile 23 2007-09-11 06:56:53Z cramer $
+ 
+ 
+-PREFIX	?= /usr/local
++PREFIX	?= /usr
+ BIN     = $(PREFIX)/bin
+ 
+ CC = gcc
+-CFLAGS = -g -O2 -Wall -DHAVE_GETOPT_LONG_ONLY
++CFLAGS = $(RPM_OPT_FLAGS) -DHAVE_GETOPT_LONG_ONLY
+ INCLUDE = -I /usr/include/spf2
+ LIBS = -lspf2 -lpthread -lnsl -lresolv
+ 
