@@ -4,7 +4,7 @@ Version:	23
 Release:	%mkrel 6
 License:	LGPL
 Group:		System/Servers
-URL:		http://www.freestone.net/ftp/policyd-spf-fs/
+URL:		https://www.freestone.net/ftp/policyd-spf-fs/
 Source0:	http://www.freestone.net/ftp/policyd-spf-fs/%{name}_%{version}.tar.gz
 Source1:	http://www.freestone.net/ftp/policyd-spf-fs/%{name}_%{version}.tar.gz.sig
 Patch0:		policyd-spf-fs-no_nameser.h.diff
