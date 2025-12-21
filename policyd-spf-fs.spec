@@ -9,6 +9,7 @@ Source0:	http://www.freestone.net/ftp/policyd-spf-fs/%{name}_%{version}.tar.gz
 Source1:	http://www.freestone.net/ftp/policyd-spf-fs/%{name}_%{version}.tar.gz.sig
 Patch0:		policyd-spf-fs-no_nameser.h.diff
 Patch1:		policyd-spf-fs-optflags.diff
+BuildRequires:	make
 BuildRequires:	libspf-devel >= 1.2.5
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
